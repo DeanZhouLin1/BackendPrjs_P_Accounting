@@ -1,0 +1,148 @@
+<logs>
+  <log application="/LM/W3SVC/1/ROOT/Accounting-3-130333150566296153" machine="DEANZHOU" module="BackendUI" logType="Error" logTime="2014/1/4 21:19:27">
+    <title>【DEANZHOU】指定的参数已超出有效值的范围。
+参数名: value</title>
+    <detail>System.ArgumentOutOfRangeException: 指定的参数已超出有效值的范围。
+参数名: value
+   在 System.Web.UI.WebControls.TextBox.set_MaxLength(Int32 value)
+   在 ASP.consumerdetailsmgmt_aspx.__BuildControltxtMemo() 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\ConsumerDetailsMgmt.aspx:行号 177
+   在 ASP.consumerdetailsmgmt_aspx.__BuildControlpanelDetailInputArea() 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\ConsumerDetailsMgmt.aspx:行号 141
+   在 ASP.consumerdetailsmgmt_aspx.__BuildControl__control55(Control __ctrl) 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\ConsumerDetailsMgmt.aspx:行号 139
+   在 System.Web.UI.UpdatePanel.CreateContents()
+   在 ASP.consumerdetailsmgmt_aspx.__BuildControlupDetail() 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\ConsumerDetailsMgmt.aspx:行号 139
+   在 ASP.consumerdetailsmgmt_aspx.__BuildControlplDetail() 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\ConsumerDetailsMgmt.aspx:行号 124
+   在 ASP.consumerdetailsmgmt_aspx.__BuildControlContent2(Control __ctrl) 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\ConsumerDetailsMgmt.aspx:行号 6
+   在 System.Web.UI.MasterPage.InstantiateInContentPlaceHolder(Control contentPlaceHolder, ITemplate template)
+   在 ASP.masterpagedir_masterpage_master.__BuildControlContentPlaceHolder1() 位置 http://server/Accounting/MasterPageDir/MasterPage.master:行号 89
+   在 ASP.masterpagedir_masterpage_master.__BuildControlform1() 位置 http://server/Accounting/MasterPageDir/MasterPage.master:行号 32
+   在 ASP.masterpagedir_masterpage_master.__BuildControlTree(masterpagedir_masterpage_master __ctrl) 位置 http://server/Accounting/MasterPageDir/MasterPage.master:行号 1
+   在 ASP.masterpagedir_masterpage_master.FrameworkInitialize() 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\accounting\f4336a7a\cfd560ca\App_Web_masterpage.master.315f94a0.mk_2tyg8.0.cs:行号 0
+   在 System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   在 System.Web.UI.Page.get_Master()
+   在 Jufine.Backend.WebModel.PageBase.OnPreInit(EventArgs e) 位置 f:\MyProjectInServer\TestCore\Jufine.Backend.WebModel\PageBase.cs:行号 55
+   在 System.Web.UI.Page.PerformPreInit()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</detail>
+  </log>
+  <log application="" machine="DEANZHOU" module="初始化服务实现实例" logType="Error" logTime="2014/1/4 21:20:40">
+    <title>【DEANZHOU】未能加载文件或程序集“Jufine.Backend.IM.ServiceImplement”或它的某一个依赖项。系统找不到指定的文件。</title>
+    <detail>System.IO.FileNotFoundException: 未能加载文件或程序集“Jufine.Backend.IM.ServiceImplement”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“Jufine.Backend.IM.ServiceImplement”
+   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 Com.BaseLibrary.Contract.ServiceFactory.InitServiceInstance() 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Common\Contract\ServiceFactory.cs:行号 59
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+</detail>
+  </log>
+  <log application="" machine="DEANZHOU" module="初始化服务实现实例" logType="Error" logTime="2014/1/4 21:20:47">
+    <title>【DEANZHOU】未能加载文件或程序集“Jufine.Backend.IM.ServiceImplement”或它的某一个依赖项。系统找不到指定的文件。</title>
+    <detail>System.IO.FileNotFoundException: 未能加载文件或程序集“Jufine.Backend.IM.ServiceImplement”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“Jufine.Backend.IM.ServiceImplement”
+   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 Com.BaseLibrary.Contract.ServiceFactory.InitServiceInstance() 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Common\Contract\ServiceFactory.cs:行号 59
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+</detail>
+  </log>
+  <log application="/LM/W3SVC/1/ROOT/Accounting-4-130333152953062669" machine="DEANZHOU" module="UnExceptedException" logType="UnExceptedException" logTime="2014/1/4 21:28:03">
+    <title>【DEANZHOU】未能加载文件或程序集“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。</title>
+    <detail>System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”
+   在 EntityFramework.Extensions.ObjectQueryExtensions.ToObjectQuery[TEntity](IQueryable`1 query)
+   在 EntityFramework.Extensions.BatchExtensions.Delete[TEntity](IQueryable`1 source) 位置 f:\MyProjectInServer\TestCore\Framework\EntityFramework.Extended\Extensions\BatchExtensions.cs:行号 90
+   在 EntityFramework.Extensions.BatchExtensions.Delete[TEntity](IQueryable`1 source, Expression`1 filterExpression) 位置 f:\MyProjectInServer\TestCore\Framework\EntityFramework.Extended\Extensions\BatchExtensions.cs:行号 66
+   在 Com.BaseLibrary.Service.BatchExtensionsAdapter.Delete[TEntity](ObjectSet`1 source, Expression`1 filterExpression) 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Service\EF Extensions\BatchExtensionsAdapter.cs:行号 24
+   在 Com.BaseLibrary.Service.DataBase`2.BatchDelete(List`1 idList) 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Service\DataBase.cs:行号 61
+   在 Jufine.Backend.Accounting.Business.ConsumerDetailsBL.BatchDelete(List`1 keyList) 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.ServiceImplement\Business\ConsumerDetailsBL.cs:行号 44
+
+=== 预绑定状态信息 ===
+日志: 用户 = NT AUTHORITY\SYSTEM
+日志: DisplayName = EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ (Fully-specified)
+日志: Appbase = file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/
+日志: 初始 PrivatePath = F:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\bin
+调用程序集: EntityFramework.Extended, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: F:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\web.config
+日志: 使用主机配置文件: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/accounting/f4336a7a/cfd560ca/EntityFramework.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/accounting/f4336a7a/cfd560ca/EntityFramework/EntityFramework.DLL。
+日志: 尝试下载新的 URL file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/bin/EntityFramework.DLL。
+日志: 尝试下载新的 URL file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/bin/EntityFramework/EntityFramework.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/accounting/f4336a7a/cfd560ca/EntityFramework.EXE。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/accounting/f4336a7a/cfd560ca/EntityFramework/EntityFramework.EXE。
+日志: 尝试下载新的 URL file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/bin/EntityFramework.EXE。
+日志: 尝试下载新的 URL file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/bin/EntityFramework/EntityFramework.EXE。
+</detail>
+  </log>
+  <log application="/LM/W3SVC/1/ROOT/Accounting-4-130333152953062669" machine="DEANZHOU" module="UnExceptedException" logType="UnExceptedException" logTime="2014/1/4 21:28:59">
+    <title>【DEANZHOU】未能加载文件或程序集“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。</title>
+    <detail>System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”
+   在 EntityFramework.Extensions.ObjectQueryExtensions.ToObjectQuery[TEntity](IQueryable`1 query)
+   在 EntityFramework.Extensions.BatchExtensions.Delete[TEntity](IQueryable`1 source) 位置 f:\MyProjectInServer\TestCore\Framework\EntityFramework.Extended\Extensions\BatchExtensions.cs:行号 90
+   在 EntityFramework.Extensions.BatchExtensions.Delete[TEntity](IQueryable`1 source, Expression`1 filterExpression) 位置 f:\MyProjectInServer\TestCore\Framework\EntityFramework.Extended\Extensions\BatchExtensions.cs:行号 66
+   在 Com.BaseLibrary.Service.BatchExtensionsAdapter.Delete[TEntity](ObjectSet`1 source, Expression`1 filterExpression) 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Service\EF Extensions\BatchExtensionsAdapter.cs:行号 24
+   在 Com.BaseLibrary.Service.DataBase`2.BatchDelete(List`1 idList) 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Service\DataBase.cs:行号 61
+   在 Jufine.Backend.Accounting.Business.ConsumerDetailsBL.BatchDelete(List`1 keyList) 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.ServiceImplement\Business\ConsumerDetailsBL.cs:行号 44
+
+=== 预绑定状态信息 ===
+日志: 用户 = NT AUTHORITY\SYSTEM
+日志: DisplayName = EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ (Fully-specified)
+日志: Appbase = file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/
+日志: 初始 PrivatePath = F:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\bin
+调用程序集: EntityFramework.Extended, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: F:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\web.config
+日志: 使用主机配置文件: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+</detail>
+  </log>
+  <log application="/LM/W3SVC/1/ROOT/Accounting-4-130333152953062669" machine="DEANZHOU" module="UnExceptedException" logType="UnExceptedException" logTime="2014/1/4 21:30:19">
+    <title>【DEANZHOU】未能加载文件或程序集“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。</title>
+    <detail>System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”
+   在 EntityFramework.Extensions.ObjectQueryExtensions.ToObjectQuery[TEntity](IQueryable`1 query)
+   在 EntityFramework.Extensions.BatchExtensions.Delete[TEntity](IQueryable`1 source) 位置 f:\MyProjectInServer\TestCore\Framework\EntityFramework.Extended\Extensions\BatchExtensions.cs:行号 90
+   在 EntityFramework.Extensions.BatchExtensions.Delete[TEntity](IQueryable`1 source, Expression`1 filterExpression) 位置 f:\MyProjectInServer\TestCore\Framework\EntityFramework.Extended\Extensions\BatchExtensions.cs:行号 66
+   在 Com.BaseLibrary.Service.BatchExtensionsAdapter.Delete[TEntity](ObjectSet`1 source, Expression`1 filterExpression) 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Service\EF Extensions\BatchExtensionsAdapter.cs:行号 24
+   在 Com.BaseLibrary.Service.DataBase`2.BatchDelete(List`1 idList) 位置 f:\MyProjectInServer\TestCore\BaseLibrary\Com.BaseLibrary.Service\DataBase.cs:行号 61
+   在 Jufine.Backend.Accounting.Business.ConsumerDetailsBL.BatchDelete(List`1 keyList) 位置 f:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.ServiceImplement\Business\ConsumerDetailsBL.cs:行号 44
+
+=== 预绑定状态信息 ===
+日志: 用户 = NT AUTHORITY\SYSTEM
+日志: DisplayName = EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+ (Fully-specified)
+日志: Appbase = file:///F:/MyProjectInServer/TestCore/Projects/Accounting/Jufine.Backend.Accounting.WebUI/
+日志: 初始 PrivatePath = F:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\bin
+调用程序集: EntityFramework.Extended, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: F:\MyProjectInServer\TestCore\Projects\Accounting\Jufine.Backend.Accounting.WebUI\web.config
+日志: 使用主机配置文件: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+</detail>
+  </log>
+</logs>
